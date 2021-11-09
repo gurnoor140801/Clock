@@ -1,0 +1,41 @@
+#root{
+    background-color: black;
+   text-align: center;
+    font-family: 'Mohave', sans-serif;
+}
+
+#heading, #timer{
+    color: red;
+    font-size: 70px;
+}
+
+
+select{
+    height: 30px;
+    width: 80px;
+    margin: 4px;
+    border-radius: 10px;
+    border: solid red;
+    background-color: black;
+    color: red;
+    outline: none;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: transparent;
+    border:solid red;
+    opacity: 0.5;
+    color: red;
+}
+
+button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
